@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#E7E7E7</color>
+    <color name="nocolor">#00000000</color>
+    <color name="tab_tv_color_night">#888888</color>
+    <color name="black_666">#666666</color>
+    <color name="black_333">#333333</color>
+    <color name="green">#14B563</color>
+</resources>

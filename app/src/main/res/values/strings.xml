@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyAppMVP</string>
+    <string name="tab1">首页</string>
+    <string name="tab2">购物车</string>
+    <string name="tab3">账户</string>
+</resources>
