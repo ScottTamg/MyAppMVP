@@ -1,4 +1,4 @@
-package com.demo.myappmvp.http;
+package com.demo.myappmvp.data.http;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;

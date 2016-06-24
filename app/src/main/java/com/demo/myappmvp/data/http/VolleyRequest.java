@@ -1,4 +1,4 @@
-package com.demo.myappmvp.http;
+package com.demo.myappmvp.data.http;
 
 import android.support.v4.util.ArrayMap;
 
@@ -8,7 +8,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.demo.myappmvp.base.MyApplication;
-import com.demo.myappmvp.entity.BaseEntity;
+import com.demo.myappmvp.data.entity.BaseEntity;
 import com.demo.myappmvp.utils.LoadDataUtil;
 import com.demo.myappmvp.utils.SPUtil;
 

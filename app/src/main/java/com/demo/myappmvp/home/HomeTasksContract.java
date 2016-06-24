@@ -4,7 +4,7 @@ import android.support.annotation.NonNull;
 
 import com.demo.myappmvp.BasePresenter;
 import com.demo.myappmvp.BaseView;
-import com.demo.myappmvp.entity.ProductEntity;
+import com.demo.myappmvp.data.entity.ProductEntity;
 
 import java.util.List;
 

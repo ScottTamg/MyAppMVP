@@ -17,7 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.demo.myappmvp.R;
-import com.demo.myappmvp.entity.ProductEntity;
+import com.demo.myappmvp.data.entity.ProductEntity;
 
 import java.util.List;
 

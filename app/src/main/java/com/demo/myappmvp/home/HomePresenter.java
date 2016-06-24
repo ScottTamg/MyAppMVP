@@ -1,9 +1,8 @@
 package com.demo.myappmvp.home;
 
 import com.demo.myappmvp.base.MyApplication;
-import com.demo.myappmvp.entity.ProductEntity;
-import com.demo.myappmvp.http.VolleyRequest;
-import com.demo.myappmvp.http.VolleyRequestListener;
+import com.demo.myappmvp.data.http.VolleyRequest;
+import com.demo.myappmvp.data.http.VolleyRequestListener;
 import com.demo.myappmvp.utils.LoadDataUtil;
 import com.demo.myappmvp.utils.SPUtil;
 
@@ -30,8 +29,8 @@ public class HomePresenter implements HomeTasksContract.Presenter {
             @Override
             public void success(boolean isSuccess, String response, String error) {
                 if (isSuccess) {
-                    ProductEntity entity =
-                            LoadDataUtil.getInstance().getJsonData(response, ProductEntity.class);
+                    com.demo.myappmvp.data.entity.ProductEntity entity =
+                            LoadDataUtil.getInstance().getJsonData(response, com.demo.myappmvp.data.entity.ProductEntity.class);
                     if (0 == entity.getErrorNo()) {
                         mView.showData(entity.getData().getList());
                     } else if (-99 == entity.getErrorNo()) {

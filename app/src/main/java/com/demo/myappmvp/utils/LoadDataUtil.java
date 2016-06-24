@@ -1,6 +1,6 @@
 package com.demo.myappmvp.utils;
 
-import com.demo.myappmvp.entity.ProductEntity;
+import com.demo.myappmvp.data.entity.ProductEntity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
