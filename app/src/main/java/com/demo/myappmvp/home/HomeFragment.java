@@ -106,7 +106,7 @@ public class HomeFragment extends Fragment implements HomeTasksContract.View {
 
     @Override
     public void showNoData() {
-
+        Toast.makeText(getActivity(), "NoData", Toast.LENGTH_SHORT).show();
     }
 
     @Override
