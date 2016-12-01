@@ -101,7 +101,7 @@ public class HomeFragment extends Fragment implements HomeTasksContract.View {
 
     @Override
     public void showData(List<ProductEntity.DataBean.ListBean> data) {
-
+        Toast.makeText(getActivity(), "showData", Toast.LENGTH_SHORT).show();
     }
 
     @Override
