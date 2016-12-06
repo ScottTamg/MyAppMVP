@@ -1,4 +1,4 @@
-package com.demo.myappmvp;
+package com.demo.myappmvp.adapter;
 
 import android.support.v4.app.Fragment;
 

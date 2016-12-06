@@ -4,9 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.demo.myappmvp.AccountFragment;
 import com.demo.myappmvp.home.HomeFragment;
-import com.demo.myappmvp.ShoppingCartFragment;
 
 /**
  * Created by Txw on 2016/4/5.

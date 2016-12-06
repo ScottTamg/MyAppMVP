@@ -75,7 +75,13 @@ public class HomeFragment extends Fragment implements HomeTasksContract.View {
     @Override
     public void onResume() {
         super.onResume();
-        mPresenter.start();
+        mPresenter.subscribe();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mPresenter.unsubscribe();
     }
 
     @Override

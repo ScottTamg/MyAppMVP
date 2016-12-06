@@ -1,4 +1,4 @@
-package com.demo.myappmvp;
+package com.demo.myappmvp.adapter;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.demo.myappmvp.R;
 import com.demo.myappmvp.adapter.SectionsPagerAdapter;
 import com.demo.myappmvp.widget.dragindicator.DragIndicatorView;
 
