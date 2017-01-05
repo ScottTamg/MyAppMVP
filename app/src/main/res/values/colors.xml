@@ -10,4 +10,8 @@
     <color name="black_666">#666666</color>
     <color name="black_333">#333333</color>
     <color name="green">#14B563</color>
+
+    <drawable name="completedTaskBackground">#CCCCCC</drawable>
+
+    <drawable name="touchFeedback">#CFD8DC</drawable>
 </resources>
