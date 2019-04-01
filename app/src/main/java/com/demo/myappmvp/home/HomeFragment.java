@@ -67,7 +67,7 @@ public class HomeFragment extends Fragment implements HomeTasksContract.View {
         mSwipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-
+                Toast.makeText(getActivity(), "Refresh ing...", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -107,7 +107,7 @@ public class HomeFragment extends Fragment implements HomeTasksContract.View {
 
     @Override
     public void showData(List<ProductEntity.DataBean.ListBean> data) {
-
+        Toast.makeText(getActivity(), "showData", Toast.LENGTH_SHORT).show();
     }
 
     @Override
